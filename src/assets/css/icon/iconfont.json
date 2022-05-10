@@ -1,0 +1,44 @@
+{
+  "id": "3347240",
+  "name": "1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577340",
+      "name": "购物车-fill",
+      "font_class": "gouwuchefill",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    },
+    {
+      "icon_id": "903759",
+      "name": "APP(1)",
+      "font_class": "app1",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "1183007",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "1330734",
+      "name": "分期商城",
+      "font_class": "fenqishangcheng",
+      "unicode": "e748",
+      "unicode_decimal": 59208
+    },
+    {
+      "icon_id": "5077692",
+      "name": "会员卡购买",
+      "font_class": "huiyuanqiagoumai",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    }
+  ]
+}

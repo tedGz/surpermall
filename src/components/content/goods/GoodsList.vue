@@ -1,33 +1,32 @@
 <template>
-  <div class="goods-list">
-    <goods-item v-for="(item,index) in goods" 
-    :key="index" 
-    :goodsItem="item"
-    class="goods-item"></goods-item>
-  </div>
+  <grid-view>
+    <goods-item
+      v-for="(item, index) in goods"
+      :key="index"
+      :goodsItem="item"
+    ></goods-item>
+  </grid-view>
 </template>
 
 <script>
-import GoodsItem from './GoodsItem.vue'
+import GridView from "@/components/common/gridview/GridView";
+import GoodsItem from "./GoodsItem.vue";
 
 export default {
-  components:{
-    GoodsItem
+  components: {
+    GoodsItem,
+    GridView,
   },
-  props:{
-    goods:{
-      type:Array,
-      default(){
-        return []
-      }
-    }
-  }
-}
+  props: {
+    goods: {
+      type: Array,
+      default() {
+        return [];
+      },
+    },
+  },
+};
 </script>
 
 <style scoped>
-  .goods-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
 </style>
